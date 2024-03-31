@@ -242,7 +242,6 @@ if(localStorage.getItem("pass") == "new" || localStorage.getItem("pass") == null
             </div>
             <div class="bott" id="secureAmount"></div>
         </div>
-        <a class="forgot">Forgot Password?</a>
     `;
     function toggle() {
         let password = document.getElementById('pass');
